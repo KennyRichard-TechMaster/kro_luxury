@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>KRO LUXURY | Official</title>
+</head>
+<body class="no-scroll"> <nav>
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+        <div class="logo">KRO LUXURY</div>
+        <div></div>
+    </nav>
+
+    <div class="sidebar" id="sidebar">
+        <div onclick="toggleMenu()" style="position: absolute; top: 30px; right: 30px; cursor: pointer; color: #000; font-size: 30px;">✕</div>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="showcase.html">Showcase</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+
+    <section class="hero">
+        <p style="color: var(--gold); letter-spacing: 12px; margin-bottom: 15px;">THE APEX OF PRESTIGE</p>
+        <h1 class="hero-title">KRO</h1>
+        <h1 class="hero-title">LUXURY</h1>
+                
+        <a href="showcase.html" style="margin-top: 50px; padding: 20px 60px; background: gold; border: 1px solid var(--gold); border-radius: 70px; color: black; text-decoration: none; font-weight: bold; letter-spacing: 5px;">ENTER THE VAULT</a>
+    </section>
+
+    <script>function toggleMenu() { document.getElementById('sidebar').classList.toggle('active'); }</script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>KRO LUXURY | About</title>
+</head>
+<body>
+    <nav><div class="menu-toggle" onclick="toggleMenu()">☰</div><div class="logo">KRO LUXURY</div><div></div></nav>
+    <div class="sidebar" id="sidebar">
+        <div class="close-btn" onclick="toggleMenu()">✕</div>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="showcase.html">Showcase</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+
+    <section style="padding: 100px 10%; display: flex; flex-wrap: wrap; gap: 50px; align-items: center;">
+        <div style="flex: 1; min-width: 300px;">
+            <img src="About img kenny.jpeg" style="width: 100%; border: 1px solid var(--gold); border-radius: 10px;">
+        </div>
+        <div style="flex: 2; min-width: 300px;">
+            <h1 style="font-size: 40px;">OLUGBUSI KEHINDE RICHARD</h1>
+            <p style="color: var(--gold); letter-spacing: 5px;">FOUNDER & CEO</p>
+            <p style="line-height: 1.8; color: #888;">Founder of KRO LUXURY, Kehinde Richard has redefined the standards of elegance. "Luxury is not just a product; it's a lifestyle of precision and prestige."</p>
+        </div>
+    </section>
+    <script>function toggleMenu() { document.getElementById('sidebar').classList.toggle('active'); }</script>
+</body>
+</html>

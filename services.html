@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>KRO LUXURY | Services</title>
+</head>
+<body>
+
+    <nav>
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+        <div class="logo">KRO LUXURY</div>
+        <div></div>
+    </nav>
+
+    <div class="sidebar" id="sidebar">
+        <div class="close-btn" onclick="toggleMenu()">✕</div>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="showcase.html">Showcase</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+
+    <section style="padding: 80px 10%; text-align: center;">
+        <h2 style="color: var(--gold); letter-spacing: 5px; font-size: 14px; margin-bottom: 10px;">WORLD-CLASS EXCELLENCE</h2>
+        <h1 style="font-size: clamp(30px, 5vw, 60px); margin-bottom: 60px; letter-spacing: -2px;">OUR SERVICES</h1>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px;">
+            
+            <div style="padding: 50px 30px; background: var(--glass); border: 1px solid var(--border); border-radius: 20px; transition: 0.3s;" onmouseover="this.style.borderColor='#d4af37'">
+                <div style="font-size: 40px; margin-bottom: 20px;">⌚</div>
+                <h3 style="color: var(--gold); letter-spacing: 2px;">BESPOKE SOURCING</h3>
+                <p style="color: #888; line-height: 1.6; font-size: 15px;">Whether it is a rare Patek Philippe or a limited-edition Hermès, our global network locates the "impossible" for our VIP clientele.</p>
+            </div>
+
+            <div style="padding: 50px 30px; background: var(--glass); border: 1px solid var(--border); border-radius: 20px; transition: 0.3s;" onmouseover="this.style.borderColor='#d4af37'">
+                <div style="font-size: 40px; margin-bottom: 20px;">🛡️</div>
+                <h3 style="color: var(--gold); letter-spacing: 2px;">AUTHENTICATION</h3>
+                <p style="color: #888; line-height: 1.6; font-size: 15px;">Every item passing through KRO LUXURY undergoes a rigorous 20-point verification process by master horologists and gemologists.</p>
+            </div>
+
+            <div style="padding: 50px 30px; background: var(--glass); border: 1px solid var(--border); border-radius: 20px; transition: 0.3s;" onmouseover="this.style.borderColor='#d4af37'">
+                <div style="font-size: 40px; margin-bottom: 20px;">✈️</div>
+                <h3 style="color: var(--gold); letter-spacing: 2px;">GLOBAL CONCIERGE</h3>
+                <p style="color: #888; line-height: 1.6; font-size: 15px;">We provide fully insured, white-glove international shipping. Your assets are protected from our vault to your doorstep.</p>
+            </div>
+
+            <div style="padding: 50px 30px; background: var(--glass); border: 1px solid var(--border); border-radius: 20px; transition: 0.3s;" onmouseover="this.style.borderColor='#d4af37'">
+                <div style="font-size: 40px; margin-bottom: 20px;">💎</div>
+                <h3 style="color: var(--gold); letter-spacing: 2px;">PRIVATE VIEWINGS</h3>
+                <p style="color: #888; line-height: 1.6; font-size: 15px;">Exclusive access to our private showroom for high-net-worth individuals seeking a discreet and personal shopping experience.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <footer style="margin-top: 50px; border-top: 1px solid var(--border); padding: 40px; text-align: center; color: #444; font-size: 12px; letter-spacing: 3px;">
+        KRO LUXURY &copy; 2026 | THE APEX OF PRESTIGE
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            document.getElementById('sidebar').classList.toggle('active');
+        }
+    </script>
+
+</body>
+</html>
